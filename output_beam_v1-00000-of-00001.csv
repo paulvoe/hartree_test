@@ -1,0 +1,39 @@
+legal_entity,counter_party,tier,max(rating by counterparty),sum(value where status=ARAP),sum(value where status=ACCR)
+Total,Total,Total,"{'C1': 3, 'C2': 3, 'C3': 6, 'C4': 6, 'C5': 6, 'C6': 6}",1250,512
+Total,Total,1,{'C1': 3},40,0
+Total,Total,2,{'C2': 3},20,40
+Total,Total,3,{'C3': 6},5,197
+Total,Total,4,{'C4': 6},40,100
+Total,Total,5,{'C5': 6},1000,115
+Total,Total,6,{'C6': 6},145,60
+Total,C1,Total,{'C1': 3},40,0
+Total,C1,1,{'C1': 3},40,0
+Total,C2,Total,{'C2': 3},20,40
+Total,C2,2,{'C2': 3},20,40
+Total,C3,Total,{'C3': 6},5,197
+Total,C3,3,{'C3': 6},5,197
+Total,C4,Total,{'C4': 6},40,100
+Total,C4,4,{'C4': 6},40,100
+Total,C5,Total,{'C5': 6},1000,115
+Total,C5,5,{'C5': 6},1000,115
+Total,C6,Total,{'C6': 6},145,60
+Total,C6,6,{'C6': 6},145,60
+L1,Total,Total,"{'C1': 3, 'C4': 6, 'C3': 6}",85,100
+L1,Total,1,{'C1': 3},40,0
+L1,Total,3,{'C3': 6},5,0
+L1,Total,4,{'C4': 6},40,100
+L1,C1,Total,{'C1': 3},40,0
+L1,C3,Total,{'C3': 6},5,0
+L1,C4,Total,{'C4': 6},40,100
+L2,Total,Total,"{'C2': 3, 'C5': 6, 'C3': 2}",1020,207
+L2,Total,2,{'C2': 3},20,40
+L2,Total,3,{'C3': 2},0,52
+L2,Total,5,{'C5': 6},1000,115
+L2,C2,Total,{'C2': 3},20,40
+L2,C3,Total,{'C3': 2},0,52
+L2,C5,Total,{'C5': 6},1000,115
+L3,Total,Total,"{'C3': 4, 'C6': 6}",145,205
+L3,Total,3,{'C3': 4},0,145
+L3,Total,6,{'C6': 6},145,60
+L3,C3,Total,{'C3': 4},0,145
+L3,C6,Total,{'C6': 6},145,60
